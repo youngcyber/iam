@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> 
+    
+    <title>Mobile App</title>
+    <link href="lib/ionic/release/css/ionic.min.css" rel="stylesheet" />
+	<link href="css/app.css" rel="stylesheet" />
+	<link href="css/animated.css" rel="stylesheet" />
+	<link href="lib/filter-bar/ionic.filter.bar.min.css" rel="stylesheet" />
+	<link href="lib/fab/ion-fab.css" rel="stylesheet" />
+	
+	<link href="lib/slidingTabs/css/slidingTabs.css" rel="stylesheet">
+	<link href="lib/ion-gallery/dist/ion-gallery.css" rel="stylesheet">
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&sensor=false&v=3&key=AIzaSyCkX-4J5Tuo_JSduOPEwOMk3bmj_AoDMCI&libraries=geometry,places"></script>
+
+    <script src="lib/ionic/release/js/ionic.bundle.min.js"></script>
+	<script src="lib/slidingTabs/js/slidingTabsDirective.js"></script>
+	<script src="lib/filter-bar/ionic.filter.bar.min.js"></script>
+	<script src="lib/ionic-native-transitions.js"></script>	
+	<script src="lib/ionic-image-lazy-load.js"></script>	
+	<script src="lib/angular-ripple.js"></script>
+	<script src="lib/fab/ion-fab.js"></script>
+	<script src="lib/ngCordova/dist/ng-cordova.js"></script>
+	<script src="cordova.js"></script>		
+	<script src="lib/moment-with-locales.min.js"></script>
+	<script src="lib/angular-moment.min.js"></script>
+	<script src="lib/angular-scroll-animate.js"></script>
+	<script src="lib/angular-translate/translate.js"></script>
+	<script src="lib/angular-translate/service/default-interpolation.js"></script>
+	<script src="lib/angular-translate/service/handler-log.js"></script>
+	<script src="lib/angular-translate/service/loader-static-files.js"></script>
+	<script src="lib/angular-translate/service/storage-key.js"></script>
+	<script src="lib/angular-translate/service/storage-local.js"></script>
+	<script src="lib/angular-translate/service/storage-cookie.js"></script>
+	<script src="lib/angular-translate/service/translate.js"></script>
+	<script src="lib/angular-translate/directive/translate.js"></script>
+	<script src="lib/angular-translate/filter/translate.js"></script>
+	<script src="lib/ngstorage/ngStorage.min.js"></script>
+	
+	<script src="script/app.js"></script>
+	<script src="script/services.js"></script>
+	
+
+	 <script src="lib/ionic-datepicker/dist/ionic-datepicker.bundle.min.js"></script>	
+	  <script src="lib/ionic-timepicker/dist/ionic-timepicker.bundle.min.js"></script>	
+	 
+	 <script src="lib/ionic-modal-select.js"></script>
+	
+	  
+
+	  	<script src="script/controller/MainCtrl.js"></script>
+	   
+
+
+  </head>
+  <body ng-app="mobileApp">
+    <div on-swipe="onSideMenuSwipe($event)" on-drag="onSideMenuDrag($event)">
+      <ion-nav-view></ion-nav-view>
+    </div>
+
+  </body>
+</html>
